@@ -58,17 +58,17 @@
 @define-color workspaces      alpha(@color0,0.8);
 
 @define-color temperature    alpha(@color0,0.8);
-@define-color memory          alpha(@bg0, 0.9);
-@define-color cpu             alpha(@bg1, 0.9);
+@define-color memory          alpha(@bg0, 1);
+@define-color cpu             alpha(@bg1, 1);
 @define-color distro-fg       @white;
 @define-color distro-bg       @color4;
-@define-color time            alpha(@bg1, 0.9);
-@define-color date            alpha(@bg0, 0.9);
+@define-color time            alpha(@bg1, 1);
+@define-color date            alpha(@bg0, 1);
 @define-color tray            alpha(@color0,0.8);
 
 @define-color pulseaudio      alpha(@black, 0.8);
-@define-color backlight       alpha(@bg0, 0.9);
-@define-color battery          alpha(@bg1, 0.8);
+@define-color backlight       alpha(@bg0, 1);
+@define-color battery          alpha(@bg1, 1);
 @define-color power           @color4;
 
 /* State Colors */

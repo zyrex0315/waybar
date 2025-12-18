@@ -258,6 +258,7 @@ tooltip label {
   box-shadow: none;
 }
 
+
 #custom-update {
   padding-right: 8px;
   background: @tray;
@@ -273,6 +274,12 @@ tooltip label {
 }
 
 /* == Media Info == */
+#custom-cava{
+      color: alpha(@color4,0.4);
+     padding-right: 9px;
+  padding-left: 9px;
+  }
+
 
 #custom-media {
   font-weight: normal;
@@ -363,3 +370,10 @@ tooltip label {
   text-shadow: none;
   box-shadow: none;
 }
+#custom-audio {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  color: #b4befe;
+  padding: 0 10px;
+}
+

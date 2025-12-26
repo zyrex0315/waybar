@@ -135,16 +135,22 @@ tooltip label {
 
 #custom-paddc {
   padding-right: 13px;
+  
 }
+#power-profiles-daemon{
+
+  padding-right:6px;
+  padding-left: 4px;
+  }
 #custom-left2 {
   color: @tray;
   background: @cpuinfo;
-  padding-left: 2px;
+  padding-left: 28px;
 }
 #custom-cpuinfo {
   background: @tray;
   padding-left: 1px;
-  padding-right: 0;
+  padding-right: 2px;
 }
 
 /* == Memory == */

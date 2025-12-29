@@ -29,9 +29,11 @@
 @define-color bright_aqua     #8ec07c;
 @define-color orange          #d65d0e;
 @define-color bright_orange   #fe8019;
-
+@define-color base          #1e1e2e;
 @define-color white           #ffffff;
 @define-color black           #000000;
+@define-color surface1      #45475a;
+@define-color surface0      #272836;
 
 /* 
   bg - background
@@ -55,20 +57,20 @@
 /* Module Colors */
 
 @define-color module-fg       @fg0;
-@define-color workspaces      alpha(@color0,0.8);
+@define-color workspaces      alpha(@color0,1);
 
-@define-color temperature    alpha(@color0,0.8);
-@define-color memory          alpha(@bg0, 1);
-@define-color cpu             alpha(@bg1, 1);
+@define-color temperature    alpha(@color0,1);
+@define-color memory          @base;
+@define-color cpu             @surface0;
 @define-color distro-fg       @white;
 @define-color distro-bg       @color4;
-@define-color time            alpha(@bg1, 1);
-@define-color date            alpha(@bg0, 1);
-@define-color tray            alpha(@color0,0.8);
+@define-color time            @surface0;
+@define-color date            @base;
+@define-color tray            alpha(@color0,1);
 
-@define-color pulseaudio      alpha(@black, 0.8);
-@define-color backlight       alpha(@bg0, 1);
-@define-color battery          alpha(@bg1, 1);
+@define-color pulseaudio      alpha(@black, 1);
+@define-color backlight       @base;
+@define-color battery         @surface0;
 @define-color power           @color4;
 
 /* State Colors */
